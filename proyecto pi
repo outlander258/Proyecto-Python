@@ -1,0 +1,11 @@
+columna=[]
+fila=[]
+aux=[]
+contAs=0
+for x in range (14):
+    for j in range(3):
+        contAs+=1
+        fila.append(contAs)
+        aux=fila.copy()
+    columna.append(aux)
+    fila.clear()
