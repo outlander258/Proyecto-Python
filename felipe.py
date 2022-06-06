@@ -1,4 +1,4 @@
-if op==2:
+if op==4:
     while valido:
         try:
             rut=int(input("modificar datos del usuario: \n ingrese rut el cliente (sin puntos ni guion verificador) y su numero de asiento:\n rut: "))
