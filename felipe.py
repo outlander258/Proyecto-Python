@@ -5,7 +5,7 @@ if op==2:
             numasiento=int(input("asiento: "))
             if rut>=10000000 and rut<= 999999999999 and numasiento>=1 and numasiento<=42:
                     if rut==rutClient:
-                        print("nombre",nombreClient,"\nrut:",rutClient,"\ntelefono:",teleclient,"\nbanco:",bancoClient,"\nnumero de asiento:",numasiento)#a esto se le tiene que agregar el tema de los asiento que comre tambien    
+                        print("nombre",nombreClient,"\nrut:",rutClient,"\ntelefono:",teleclient,"\nbanco:",bancoClient,"\nnumero de asiento:",numasiento)    
                         while valido:
                             try:
                                 datoclient=input("por favor elija los datos a modificar del cliente: (nombre/telefono):\n")      
